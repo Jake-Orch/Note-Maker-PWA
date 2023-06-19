@@ -34,11 +34,13 @@ module.exports = () => {
         theme_color: '#225ca3',
         orientation: 'portrait',
         display: 'standalone',
+        fingerprints: false,
+        destination: path.join(__dirname, 'auto'),
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join('assets', 'images')
+            destination: path.join('assets', 'icons')
           }
         ]
       })
