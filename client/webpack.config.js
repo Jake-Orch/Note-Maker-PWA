@@ -24,7 +24,7 @@ module.exports = () => {
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
-        swDest: 'service-worker.js',
+        swDest: 'src-sw.js',
       }),
       new WebpackPwaManifest({
         name: 'Note Maker PWA',
@@ -35,7 +35,9 @@ module.exports = () => {
         orientation: 'portrait',
         display: 'standalone',
         fingerprints: false,
-        destination: path.join(__dirname, 'auto'),
+        inject: true,
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
