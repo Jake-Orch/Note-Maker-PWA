@@ -34,7 +34,7 @@ To use this application, simply click the heroku link at the bottom of the READM
 ## License  
 N/A
 ## Contributing  
-To contribute to this project, clone it to your local device, make any changes wanted and request to push them to my repository.
+To contribute to this project, reach out to my email address linked at the bottom of this README with any suggestions and I will get back to you.
 ## Tests  
 I ran all the available functions, whilst being connected and not connected, on the application to make sure they all work correctly.  
 ## Questions  
