@@ -21,7 +21,11 @@ export const putDb = async (content) => {
 
   const store = transaction.objectStore('jate');
 
-  store.put({id:1, value: content});
+  const req = store.put({id:1, value: content});
+
+  const res = await req;
+
+  console.log(res);
 
   console.log('Data saved to database');
 
@@ -36,9 +40,15 @@ export const getDb = async () => {
 
   const store = transaction.objectStore('jate');
 
-  store.get(1);
+  const req = store.get(1);
+
+  const res = await req;
+
+  console.log(res);
 
   console.log('Data recieved from database');
+
+  return res?.value;
 
 };
 
