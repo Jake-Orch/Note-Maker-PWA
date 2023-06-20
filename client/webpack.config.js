@@ -21,6 +21,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Note Maker',
+        favicon: "./src/images/favicon.ico"
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
