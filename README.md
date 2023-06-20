@@ -36,7 +36,7 @@ N/A
 ## Contributing  
 To contribute to this project, clone it to your local device, make any changes wanted and request to push them to my repository.
 ## Tests  
-I ran all the available functions on the project to make sure they all work correctly.  
+I ran all the available functions, whilst being connected and not connected, on the application to make sure they all work correctly.  
 ## Questions  
 If you have any questions about this application, contact me via either my email address or my GitHub account.  
 My email address: jakeorchard@live.co.uk  
